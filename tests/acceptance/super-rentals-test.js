@@ -11,12 +11,8 @@ module('Acceptance | super rentals', function(hooks) {
     assert.equal(currentURL(), '/');
     assert.dom('nav').exists();
     assert.dom('h1').hasText('Rental App');
-    assert.dom('h2').hasText('Welcome to Rental App!');
-
-    assert.dom('.jumbo a.button').hasText('About Us');
-    await click('.jumbo a.button');
-
-    assert.equal(currentURL(), '/about');
+    assert.dom('.carousel.slide').exists();
+    assert.dom('.carousel-caption').exists();
   });
 
   test('viewing the details of a rental property', async function(assert) {

@@ -1,0 +1,10 @@
+<BsCarousel as |car|>
+  {{#each @rentals as |rental|}}
+    <car.slide>
+      <img alt="First slide" src={{rental.image}} width="100%" height="400">
+      <div class="carousel-caption">
+        {{rental.title}}
+      </div>
+    </car.slide>
+  {{/each}}
+</BsCarousel>
