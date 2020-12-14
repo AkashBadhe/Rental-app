@@ -1,6 +1,6 @@
 # Rental App
 
-[Demo](https://rental-app-ember.herokuapp.com/)
+[Demo](https://zealous-shaw-8ff30c.netlify.app/)
 
 ## Prerequisites
 
