@@ -1,11 +1,6 @@
-[![This project uses GitHub Actions for continuous integration.](https://github.com/ember-learn/rental-app/workflows/CI/badge.svg)](https://github.com/ember-learn/rental-app/actions?query=workflow%3ACI)
-
 # Rental App
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-This is a working repository for the Rental App tutorial,
-which you can check out at https://guides.emberjs.com/release/tutorial/.
+[Demo](https://rental-app-ember.herokuapp.com/)
 
 ## Prerequisites
 
