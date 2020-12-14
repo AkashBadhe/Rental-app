@@ -1,7 +1,7 @@
 {
-  "name": "Super Rentals",
-  "description": "Super Rentals is the working repository of the Ember tutorial",
-  "repository": "https://github.com/ember-learn/super-rentals",
+  "name": "Rental App",
+  "description": "Rental App is the working repository of the Ember tutorial",
+  "repository": "https://github.com/ember-learn/rental-app",
   "keywords": ["ember", "ember.js"],
   "buildpacks": [
     {

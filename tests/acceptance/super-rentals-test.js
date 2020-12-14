@@ -10,8 +10,8 @@ module('Acceptance | super rentals', function(hooks) {
 
     assert.equal(currentURL(), '/');
     assert.dom('nav').exists();
-    assert.dom('h1').hasText('SuperRentals');
-    assert.dom('h2').hasText('Welcome to Super Rentals!');
+    assert.dom('h1').hasText('Rental App');
+    assert.dom('h2').hasText('Welcome to Rental App!');
 
     assert.dom('.jumbo a.button').hasText('About Us');
     await click('.jumbo a.button');
@@ -32,7 +32,7 @@ module('Acceptance | super rentals', function(hooks) {
 
     assert.equal(currentURL(), '/rentals/grand-old-mansion');
     assert.dom('nav').exists();
-    assert.dom('h1').containsText('SuperRentals');
+    assert.dom('h1').containsText('Rental App');
     assert.dom('h2').containsText('Grand Old Mansion');
     assert.dom('.rental.detailed').exists();
     assert.dom('.share.button').hasText('Share on Twitter');
@@ -53,8 +53,8 @@ module('Acceptance | super rentals', function(hooks) {
 
     assert.equal(currentURL(), '/about');
     assert.dom('nav').exists();
-    assert.dom('h1').hasText('SuperRentals');
-    assert.dom('h2').hasText('About Super Rentals');
+    assert.dom('h1').hasText('Rental App');
+    assert.dom('h2').hasText('About Rental App');
 
     assert.dom('.jumbo a.button').hasText('Contact Us');
     await click('.jumbo a.button');
@@ -67,7 +67,7 @@ module('Acceptance | super rentals', function(hooks) {
 
     assert.equal(currentURL(), '/getting-in-touch');
     assert.dom('nav').exists();
-    assert.dom('h1').hasText('SuperRentals');
+    assert.dom('h1').hasText('Rental App');
     assert.dom('h2').hasText('Contact Us');
 
     assert.dom('.jumbo a.button').hasText('About');
@@ -80,7 +80,7 @@ module('Acceptance | super rentals', function(hooks) {
     await visit('/');
 
     assert.dom('nav').exists();
-    assert.dom('nav a.menu-index').hasText('SuperRentals');
+    assert.dom('nav a.menu-index').hasText('Rental App');
     assert.dom('nav a.menu-about').hasText('About');
     assert.dom('nav a.menu-contact').hasText('Contact');
 

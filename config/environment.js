@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'super-rentals',
+    modulePrefix: 'rental-app',
     environment,
     rootURL: '/',
     locationType: 'auto',
@@ -48,7 +48,7 @@ module.exports = function(environment) {
     // here you can enable a production-specific feature
   }
 
-  ENV.MAPBOX_ACCESS_TOKEN = process.env.MAPBOX_ACCESS_TOKEN;
+  ENV.MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoiYXNrZXh0IiwiYSI6ImNrZGU2dDJ3ZDFpcnozMXQ5ZGJkNm55YWoifQ.9F0B_011dtYbVyOndJRPIw';
 
   return ENV;
 };

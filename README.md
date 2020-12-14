@@ -1,10 +1,10 @@
-[![This project uses GitHub Actions for continuous integration.](https://github.com/ember-learn/super-rentals/workflows/CI/badge.svg)](https://github.com/ember-learn/super-rentals/actions?query=workflow%3ACI)
+[![This project uses GitHub Actions for continuous integration.](https://github.com/ember-learn/rental-app/workflows/CI/badge.svg)](https://github.com/ember-learn/rental-app/actions?query=workflow%3ACI)
 
-# Super Rentals
+# Rental App
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-This is a working repository for the Super Rentals tutorial,
+This is a working repository for the Rental App tutorial,
 which you can check out at https://guides.emberjs.com/release/tutorial/.
 
 ## Prerequisites
@@ -21,7 +21,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd super-rentals`
+* `cd rental-app`
 * `yarn install`
 
 ## Running / Development

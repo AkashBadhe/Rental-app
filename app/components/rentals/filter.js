@@ -5,7 +5,8 @@ export default class RentalsFilterComponent extends Component {
     let { rentals, query } = this.args;
 
     if (query) {
-      rentals = rentals.filter(rental => rental.title.includes(query));
+      let pattern = new RegExp(`${query}`, 'gi');
+      rentals = rentals.filter(rental => pattern.test(rental.title));
     }
 
     return rentals;
